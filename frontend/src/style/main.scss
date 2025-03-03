@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  letter-spacing: 0.2px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+@import "./common/font";
+@import "./common/1collect";
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

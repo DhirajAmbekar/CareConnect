@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  letter-spacing: 0.2px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Modern Era Bold WEB";
+  src: url("./font/Modern_Era_Bold_WEB/ModernEra-Bold.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Medium WEB";
+  src: url("./font/Modern_Era_Medium_WEB/ModernEra-Medium.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono ExtraBold WEB";
+  src: url("./font/Modern_Era_Mono_ExtraBold_WEB/ModernEraMono-ExtraBold.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono Bold WEB";
+  src: url("./font/Modern_Era_Mono_Bold_WEB/ModernEraMono-Bold.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono Regular WEB";
+  src: url("./font/Modern_Era_Mono_Regular_WEB/ModernEraMono-Regular.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono Medium WEB";
+  src: url("./font/Modern_Era_Mono_Medium_WEB/ModernEraMono-Medium.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Bold WEB";
+  src: url("./font/Modern_Era_Bold_WEB/ModernEra-Bold.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Medium WEB";
+  src: url("./font/Modern_Era_Medium_WEB/ModernEra-Medium.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono ExtraBold WEB";
+  src: url("./font/Modern_Era_Mono_ExtraBold_WEB/ModernEraMono-ExtraBold.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono Bold WEB";
+  src: url("./font/Modern_Era_Mono_Bold_WEB/ModernEraMono-Bold.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono Regular WEB";
+  src: url("./font/Modern_Era_Mono_Regular_WEB/ModernEraMono-Regular.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern Era Mono Medium WEB";
+  src: url("./font/Modern_Era_Mono_Medium_WEB/ModernEraMono-Medium.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --black: #000;
+  --white: #fff;
+  --basewhite: #ffefef;
+  --base: #5f1d1b;
+  --base_light: #89302e;
+  --brand-peach-soda: #ffa977;
+  --accent-red-100: #ff5c5c;
+  --brand-banana-ice-cream: #ffe7bf;
+  --brand-banana-ice-cream2: #fffbf2;
+  --baseOpas: #f5f5f5;
+  --hague_blue: #333333;
+  --nero: #1d1d1d;
+  --grey99: #fafafa71;
+  --grey98: #fafafa;
+  --grey90: #e5e5e5;
+  --grey33: #545454;
+  --gray85: #d9d9d9;
+  --gray500: #454545;
+  --gray-g-200: #e5e5e5;
+  --grey: #777777;
+  --gray-g-500: #adadad;
+  --gray-g-300: #c5c5c5;
+  --gray-g-100: #f1f1f1;
+  --red: #dd1d1d;
+  --whitesmoke: #f5f5f5;
+  --ligntwhite: #fafbfb;
+  --lightgreen: #aee9d1;
+  --lightblue: #a4e8f2;
+  --gray111: #babfc3;
+  --graim: #c9cccf;
+  --nickel: #6d7175;
+  --tropical_rain_forest: #008060;
+  --accent-green-000: #3a7d23;
+  --accent-green-001: #397d2377;
+  --accent-green-100: #64be45;
+  --dazzling_red: #d82c0d;
+  --accent-green-200: #eff8ec;
+  --milk-white: #fffbf2;
+  --ocean: #2b3a33;
+  --ocean_light: #d4dbcb;
+  --ocean_light1: #f3f2e7;
+  --Gray-G-500: #454545;
+  --Gray-G-400: #777;
+  --Gray-G-100: #f1f1f1;
+  --Gray-B-100: #1d1d1d;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
